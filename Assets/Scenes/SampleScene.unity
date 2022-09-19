@@ -416,7 +416,7 @@ MonoBehaviour:
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
-    m_Time: 2
+    m_Time: 1
     m_CustomCurve:
       serializedVersion: 2
       m_Curve: []
@@ -615,6 +615,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1796937349517072773, guid: 3b9cd3875b9ac3646954fc551718aa44, type: 3}
+      propertyPath: attackRange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1796937349517072778, guid: 3b9cd3875b9ac3646954fc551718aa44, type: 3}
+      propertyPath: m_Speed
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1798244700880944808, guid: 3b9cd3875b9ac3646954fc551718aa44, type: 3}
       propertyPath: m_Name
       value: Ghoul
@@ -677,6 +685,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 275461864817782679, guid: abec18f916e6eef41970d5d0148dae71, type: 3}
+      propertyPath: m_TagString
+      value: PlayerWeapon
+      objectReference: {fileID: 0}
     - target: {fileID: 1326766801805514276, guid: abec18f916e6eef41970d5d0148dae71, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -720,6 +732,10 @@ PrefabInstance:
     - target: {fileID: 1326766801805514276, guid: abec18f916e6eef41970d5d0148dae71, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788596917317324354, guid: abec18f916e6eef41970d5d0148dae71, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1811097741704973470, guid: abec18f916e6eef41970d5d0148dae71, type: 3}
       propertyPath: m_Name

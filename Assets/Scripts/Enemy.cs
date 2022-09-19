@@ -60,4 +60,11 @@ public class Enemy : MonoBehaviour
             Chase(collision.gameObject);
         }
     }
+
+
+    private void OnCollisionStay(Collision collision)
+    {
+        
+    }
+
 }
